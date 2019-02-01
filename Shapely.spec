@@ -4,7 +4,7 @@
 #
 Name     : Shapely
 Version  : 1.6.4.post2
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/a2/fb/7a7af9ef7a35d16fa23b127abee272cfc483ca89029b73e92e93cdf36e6b/Shapely-1.6.4.post2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a2/fb/7a7af9ef7a35d16fa23b127abee272cfc483ca89029b73e92e93cdf36e6b/Shapely-1.6.4.post2.tar.gz
 Summary  : Geometric objects, predicates, and operations
@@ -14,14 +14,15 @@ Requires: Shapely-license = %{version}-%{release}
 Requires: Shapely-python = %{version}-%{release}
 Requires: Shapely-python3 = %{version}-%{release}
 Requires: numpy
-Requires: pytest
-Requires: pytest-cov
 BuildRequires : buildreq-distutils3
 BuildRequires : geos-dev
 
 %description
+=======
 Shapely
-        =======
+=======
+.. image:: https://travis-ci.org/Toblerity/Shapely.png?branch=master
+:target: https://travis-ci.org/Toblerity/Shapely
 
 %package license
 Summary: license components for the Shapely package.
@@ -58,12 +59,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1548354170
+export SOURCE_DATE_EPOCH=1549035166
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
 %install
-export MAKEFLAGS=%{?_smp_mflags}
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Shapely
 cp LICENSE.txt %{buildroot}/usr/share/package-licenses/Shapely/LICENSE.txt
