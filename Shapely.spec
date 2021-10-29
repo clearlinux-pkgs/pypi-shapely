@@ -4,7 +4,7 @@
 #
 Name     : Shapely
 Version  : 1.7.1
-Release  : 24
+Release  : 25
 URL      : https://files.pythonhosted.org/packages/42/f3/0e1bc2c4f15e05e30c6b99322b9ddaa2babb3f43bc7df2698efdc1553439/Shapely-1.7.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/42/f3/0e1bc2c4f15e05e30c6b99322b9ddaa2babb3f43bc7df2698efdc1553439/Shapely-1.7.1.tar.gz
 Summary  : Geometric objects, predicates, and operations
