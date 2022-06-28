@@ -4,7 +4,7 @@
 #
 Name     : pypi-shapely
 Version  : 1.8.2
-Release  : 31
+Release  : 32
 URL      : https://files.pythonhosted.org/packages/93/3c/cda77e57a08c49569de5bd90376c547bcb981420100adcb0f3770ed681b1/Shapely-1.8.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/93/3c/cda77e57a08c49569de5bd90376c547bcb981420100adcb0f3770ed681b1/Shapely-1.8.2.tar.gz
 Summary  : Geometric objects, predicates, and operations
@@ -66,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656373384
+export SOURCE_DATE_EPOCH=1656407531
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
