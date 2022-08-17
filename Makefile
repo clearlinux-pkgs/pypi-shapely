@@ -1,5 +1,5 @@
 PKG_NAME := pypi-shapely
-URL = https://files.pythonhosted.org/packages/35/6d/ef38757796e756377be74bcae96c6283b21365afc96796c9d2b6ff6ddbe7/Shapely-1.8.3.tar.gz
+URL = https://files.pythonhosted.org/packages/b5/9a/625d4fc91ef85873801a16700840786117df4c016162a4532c998a7fe6bc/Shapely-1.8.4.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
