@@ -4,7 +4,7 @@
 #
 Name     : pypi-shapely
 Version  : 1.8.4
-Release  : 36
+Release  : 37
 URL      : https://files.pythonhosted.org/packages/b5/9a/625d4fc91ef85873801a16700840786117df4c016162a4532c998a7fe6bc/Shapely-1.8.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b5/9a/625d4fc91ef85873801a16700840786117df4c016162a4532c998a7fe6bc/Shapely-1.8.4.tar.gz
 Summary  : Geometric objects, predicates, and operations
