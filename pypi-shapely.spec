@@ -7,7 +7,7 @@
 #
 Name     : pypi-shapely
 Version  : 2.0.6
-Release  : 51
+Release  : 52
 URL      : https://files.pythonhosted.org/packages/4a/89/0d20bac88016be35ff7d3c0c2ae64b477908f1b1dfa540c5d69ac7af07fe/shapely-2.0.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4a/89/0d20bac88016be35ff7d3c0c2ae64b477908f1b1dfa540c5d69ac7af07fe/shapely-2.0.6.tar.gz
 Summary  : Manipulation and analysis of geometric objects
